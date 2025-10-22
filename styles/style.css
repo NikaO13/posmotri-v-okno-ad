@@ -9,6 +9,7 @@ html {
 }
 
 .page {
+  display: flex;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -17,7 +18,16 @@ html {
   font-size: 18px;
   background-color: #1b1919;
 }
-
+.content {
+  display:grid;
+  grid-template-areas: 
+    "title title"
+    "video-list video-player"
+    "video-list video-description";
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto 1fr auto;
+  
+}
 h1,
 h2,
 h3,
