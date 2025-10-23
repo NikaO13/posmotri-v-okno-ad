@@ -108,13 +108,12 @@ ol {
   line-height: 0.9;
   width: 196px;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .content__video-card-title{
-  font-family: Oswald, Arial, sans-serif;
+  font-family: 'Oswald', 'Arial', 'sans-serif';
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -140,9 +139,8 @@ ol {
 }
 
 .search-form__fieldset-title {
-font-family: Fira Sans Condensed;
+font-family: 'Fira Sans Condensed';
 font-weight: 400;
-font-style: Regular;
 font-size: 18px;
 line-height: 16.2px;
 letter-spacing: 0%;
@@ -150,7 +148,7 @@ margin-bottom: 5px;
 }
 
 .title {
-font-family: Oswald, Arial, sans-serif;
+font-family: 'Oswald', 'Arial', 'sans-serif';
 font-size: 75px;
 font-weight: 700;
 line-height: 0.94;
@@ -174,7 +172,7 @@ text-transform: uppercase;
   gap: 10px;
   border: 1px solid #FFFFFF;
   text-align: center;
-  font-family: 'Fira Sans Condensed', Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', 'Arial', 'sans-serif';
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -222,9 +220,8 @@ text-transform: uppercase;
   border-width: 1px 0px 1px 0px;
   border-style: solid;
   border-color: #FFFFFF;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed';
   font-weight: 400;
-  font-style: Regular;
   font-size: 18px;
   line-height: 100%;
   width: 225px;
